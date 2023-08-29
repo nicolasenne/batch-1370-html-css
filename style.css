@@ -1,0 +1,59 @@
+/* TODO: design your profile with CSS */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: aliceblue;
+  color: #575F7D;
+}
+
+div {
+  background: white;                         /* White background */
+  padding: 30px;                               /* Internal space */
+  border-radius: 4px;                          /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 500px;
+  text-align: center;
+  margin: 20px auto; 
+  /* margin: cima direita baixo esquerda  */
+  /* margin: cima-baixo esquerda-direita  */
+}
+
+h2 {
+  color: #7ECE90;
+}
+
+img {
+  width: 100px;
+}
+
+#btn-blue {
+  text-decoration: none;
+  background-color: #6B72E1;
+  color: #fff;
+  padding: 8px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#btn-blue:hover {
+  background-color: #262952;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.list-inline li a {
+  color: rgb(142, 142, 142);
+}
+
+.list-inline li a:hover {
+  color: rgb(60, 60, 60);
+}
